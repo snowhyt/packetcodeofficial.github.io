@@ -1,4 +1,4 @@
-# packetcodeofficial.github.io
+# webjourney1.github.io
 just things related to wed dev journey
 
 
