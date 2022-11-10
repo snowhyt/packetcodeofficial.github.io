@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+       
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+                <a href="index.html"><img src="image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa -solid fa-circle-xmark" onclick="hideMenu()"></i>
+                   
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSE</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa -solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+                <h1>Contact</h1>
+            </section>
+            <!------------Contact Us------------>
+         <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.259136489954!2d121.68811831435285!3d13.943170096587709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a2b3cbc991f59d%3A0x358bc12719e1b3ea!2sBantigue%20Elementary%20School!5e0!3m2!1sen!2sph!4v1666957273107!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+
+                <div class="contact-col">
+
+                    <div>
+                        <i class="fa -solid fa-house"></i>
+                        <span>
+                            <h5>Pagbilao, Quezon</h5>
+                            <p>Alvarez Subdivision</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa -solid fa-phone"></i>
+                        <span>
+                            <h5>095694643826</h5>
+                            <p>Phone Number Globe ata</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa -solid fa-envelope"></i>
+                        <span>
+                            <h5>gloriosoo4@gmial,com</h5>
+                            <p>Email us your question</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="contact-col">
+                    <form method= "post" action="form-handler.php">
+                        <input type="text" name="name" placeholder="Enter  Your Name" required>
+                        <input type="email" name="email" placeholder="Enter  Your Email" required>
+                        <input type="text" name="subject" placeholder="Enter  Your Subject" required>
+                        <textarea rows="8" name="message" placeholder="Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+
+        
+
+
+       
+
+        <!-----Footer Section------>
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Video provides a powerful way to help you prove your
+                point. When you click Online Video,  you can paste
+                 in the<br>  embed codefor the video you want to add. 
+                 You can also type a keyword to search online for <br>
+                 the video that best fits your document</p>
+
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-regular fa-sausage"></i>
+                
+            </div>
+           <nav class="sau">
+            <p>Made with <img src="icon/sausage.png">  Tutorials</p>
+           </nav>
+           
+
+        </section>
+
+
+
+       <!-------JavaScript to Toggle------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
